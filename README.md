@@ -1,5 +1,5 @@
 # mailmergealternative
-An alternative to Mail merge software
+An alternative to Mail merge software in Python Language
 
 I for-looped the attached excel file data.
 
