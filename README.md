@@ -1,13 +1,7 @@
 # mailmergealternative
 An alternative to Mail merge software
 
-I looped the below data which is stored in an Excel file.
-
-Cell 1        Cell 2        Cell 3
-Report 1	    0.0.0.0	      abcXXXX@gmail.com
-Report 2	    1.1.1.1	      XYZXXXXX@gmail.com
-Report 3	    2.2.2.2	      dadqeq@gmail.com
-Report 4	    3.3.3.3	      ewqeqeeq@gmail.com
+I for-looped the attached excel file data.
 
 You can change the data accordingly.
 
