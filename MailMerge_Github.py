@@ -24,13 +24,13 @@ for i in range(sheet.nrows):    # looping through the excel sheet
     body = f'''Your email body "{sheet.cell_value(i, 0)}"? ''' # use the F string for dynamic content. Change the cell number accordingly
 
     message.set_content(body)
-    mime_type, _ = mimetypes.guess_type('LOA.txt') # File location, i would recommend keep the file in the same directory as python script
+    mime_type, _ = mimetypes.guess_type('filename.txt') # File location, i would recommend keep the file in the same directory as python script
     mime_type, mime_subtype = mime_type.split('/')
-    with open('LOA.txt', 'rb') as file:
+    with open('filename.txt', 'rb') as file:
      message.add_attachment(file.read(),
      maintype=mime_type,
      subtype=mime_subtype,
-     filename='LOA.txt')
+     filename='filename.txt')
     print(message)
 
     
